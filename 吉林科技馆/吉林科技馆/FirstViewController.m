@@ -45,7 +45,7 @@
     [self performSelector:@selector(addNetworkReachabilityManager) withObject:nil afterDelay:0.3f];
 
 }
-
+//创建视图
 -(void)createView{
     self.tableView =[[UITableView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight) style:UITableViewStylePlain];
     self.tableView.delegate =self;
